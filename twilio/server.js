@@ -29,10 +29,11 @@ app.use(bodyParser.urlencoded({ extended: true }));
 //See https://dialogflow.com/docs/reference/v2-auth-setup and
 // https://cloud.google.com/dialogflow/docs/setup for details.
 
-const projectId = 'Place your dialogflow projectId here';
-const phoneNumber = "Place your twilio phone number here";
-const accountSid = 'Place your accountSid here';
-const authToken = 'Place your authToken here';
+const projectId = '
+whatsappchatbot1-fxut';
+const phoneNumber = "+19124705557";
+const accountSid = 'AC34815e23094d52242c70bf5fff324ebd';
+const authToken = '7c8e44f84fd8a0ab705be7fa2761d908';
 
 const client = require('twilio')(accountSid, authToken);
 const MessagingResponse = require('twilio').twiml.MessagingResponse;
